@@ -5,6 +5,7 @@
 </div>
 <div class="row">
 	<hr>
+<<<<<<< HEAD
 	<div class="col-xs-12">
 		<a href="#" class="list-group-item clearfix"
 		   *ngFor="let recipe of recipes">
@@ -17,6 +18,10 @@
 			</span>
 		</a>
 		<app-recipe-item></app-recipe-item>
+=======
+	<div class="col-xs-12" *ngFor="let recipeItem of recipes">
+		<app-recipe-item [recipe]="recipeItem"></app-recipe-item>
+>>>>>>> SECTION-4
 	</div>
 </div>
 
