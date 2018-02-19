@@ -5,11 +5,8 @@ import {Component} from '@angular/core';
 	templateUrl: './app.component.html',
 	styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-	sectionSelected = 'recipes';
+export class AppComponent {}
 
-	onSectionSelected(name) {
-		this.sectionSelected = name;
-	}
-}
+
+
 
